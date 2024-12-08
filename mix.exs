@@ -22,7 +22,7 @@ defmodule Gutenex.Mixfile do
     [
       {:imagineer, git: "https://github.com/philippneugebauer/imagineer/"},
       {:ex_doc, "~> 0.19", only: :dev},
-      {:apex, "~>1.0"}
+      {:apex, "~>1.0.0"}
     ]
   end
 
