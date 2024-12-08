@@ -1,10 +1,10 @@
 %{
-  "apex": {:hex, :apex, "1.0.0", "abf230314d35ca4c48a902f693247f190ad42fc14862b9c4f7dbb7077b21c20a", [:mix], []},
-  "earmark": {:hex, :earmark, "1.2.6", "b6da42b3831458d3ecc57314dff3051b080b9b2be88c2e5aa41cd642a5b044ed", [:mix], []},
+  "apex": {:hex, :apex, "1.0.0", "abf230314d35ca4c48a902f693247f190ad42fc14862b9c4f7dbb7077b21c20a", [:mix], [], "hexpm", "64bc3f7e3a9f528b188650d5e975be9427c681000ea0174dbb8e284f02d04de1"},
+  "earmark": {:hex, :earmark, "1.2.6", "b6da42b3831458d3ecc57314dff3051b080b9b2be88c2e5aa41cd642a5b044ed", [:mix], [], "hexpm", "b42a23e9bd92d65d16db2f75553982e58519054095356a418bb8320bbacb58b1"},
   "erlguten": {:git, "git://github.com/SenecaSystems/erlguten.git", "c02b8fc57571615837b4b369cef3fecaa609436b", []},
-  "ex_doc": {:hex, :ex_doc, "0.19.1", "519bb9c19526ca51d326c060cb1778d4a9056b190086a8c6c115828eaccea6cf", [:mix], [{:earmark, "~> 1.1", [hex: :earmark, optional: false]}, {:makeup_elixir, "~> 0.7", [hex: :makeup_elixir, optional: false]}]},
-  "imagineer": {:hex, :imagineer, "0.3.3", "dcb170babf9003dcb9c636c3b6c1f73cd4cee84239bd2743039cced73a4c4c02", [:mix], [{:apex, "~>1.0.0", [hex: :apex, optional: false]}]},
-  "makeup": {:hex, :makeup, "0.5.5", "9e08dfc45280c5684d771ad58159f718a7b5788596099bdfb0284597d368a882", [:mix], [{:nimble_parsec, "~> 0.4", [hex: :nimble_parsec, optional: false]}]},
-  "makeup_elixir": {:hex, :makeup_elixir, "0.10.0", "0f09c2ddf352887a956d84f8f7e702111122ca32fbbc84c2f0569b8b65cbf7fa", [:mix], [{:makeup, "~> 0.5.5", [hex: :makeup, optional: false]}]},
-  "nimble_parsec": {:hex, :nimble_parsec, "0.4.0", "ee261bb53214943679422be70f1658fff573c5d0b0a1ecd0f18738944f818efe", [:mix], []},
+  "ex_doc": {:hex, :ex_doc, "0.19.1", "519bb9c19526ca51d326c060cb1778d4a9056b190086a8c6c115828eaccea6cf", [:mix], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}, {:makeup_elixir, "~> 0.7", [hex: :makeup_elixir, repo: "hexpm", optional: false]}], "hexpm", "dc87f778d8260da0189a622f62790f6202af72f2f3dee6e78d91a18dd2fcd137"},
+  "imagineer": {:git, "https://github.com/philippneugebauer/imagineer/", "a6872296756cde19f8f575a7d1854d0fe7cbcb02", []},
+  "makeup": {:hex, :makeup, "0.5.5", "9e08dfc45280c5684d771ad58159f718a7b5788596099bdfb0284597d368a882", [:mix], [{:nimble_parsec, "~> 0.4", [hex: :nimble_parsec, repo: "hexpm", optional: false]}], "hexpm", "d7152ff93f2eac07905f510dfa03397134345ba4673a00fbf7119bab98632940"},
+  "makeup_elixir": {:hex, :makeup_elixir, "0.10.0", "0f09c2ddf352887a956d84f8f7e702111122ca32fbbc84c2f0569b8b65cbf7fa", [:mix], [{:makeup, "~> 0.5.5", [hex: :makeup, repo: "hexpm", optional: false]}], "hexpm", "4a36dd2d0d5c5f98d95b3f410d7071cd661d5af310472229dd0e92161f168a44"},
+  "nimble_parsec": {:hex, :nimble_parsec, "0.4.0", "ee261bb53214943679422be70f1658fff573c5d0b0a1ecd0f18738944f818efe", [:mix], [], "hexpm", "ebb595e19456a72786db6dcd370d320350cb624f0b6203fcc7e23161d49b0ffb"},
 }
